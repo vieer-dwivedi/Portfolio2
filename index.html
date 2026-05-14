@@ -7,6 +7,26 @@
     <meta name="description" content="Official portfolio of Vieer Dwivedi, a Cloud, DevOps, and MLOps Engineer. Specializing in high-availability infrastructure, automated pipelines, and ML production environments." />
     <meta name="keywords" content="Vieer Dwivedi, DevOps, MLOps, Cloud Engineer, AWS, Azure, GCP, Kubernetes, Terraform, ArgoCD" />
     <meta name="author" content="Vieer Dwivedi" />
+    <script type="text/javascript">
+      // Single Page Apps for GitHub Pages
+      // MIT License
+      // https://github.com/rafgraph/spa-github-pages
+      // This script checks to see if a redirect is present in the query string,
+      // converts it back into the correct url and adds it to the
+      // browser's history using window.history.replaceState(...),
+      // which results in the browser displaying the correct url for the SPA,
+      // but without actually reloading the page.
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
   </head>
   <body>
     <div id="root"></div>
